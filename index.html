@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal Jawane</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+      }
+      .user {
+        text-align: center;
+        margin-bottom: 290px;
+      }
+      .user a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: black;
+      }
+      .user ul {
+        display: inline-flex;
+      }
+      .user ul li img:hover {
+        color: white;
+        border: 5px solid black;
+        padding: 10px;
+      }
+      .user ul li :hover {
+        color: white;
+      }
+      .photo {
+        background-color: black;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      #hello {
+        height: 500px;
+        width: 900px;
+        margin-left: 170px;
+        margin-top: 5px;
+      }
+      .about {
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        background-color: gray;
+        border: 1px solid gray;
+        margin-left: 250px;
+        margin-right: 250px;
+        border-radius: 35px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 25px;
+        font-weight: bolder;
+        opacity: 0.8;
+        box-shadow: 2px 2px 5px 5px;
+      }
+      .intern {
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        background-color: gray;
+        border: 1px solid gray;
+        margin-left: 250px;
+        margin-right: 250px;
+        border-radius: 35px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 25px;
+        opacity: 0.8;
+        box-shadow: 2px 2px 5px 5px;
+      }
+      .skills {
+        font-weight: bolder;
+        font-size: large;
+        margin-left: px;
+        background-color: black;
+        color: white;
+        padding: 50px;
+        font-family: sans-serif;
+        margin-bottom: 60px;
+      }
+      #resume {
+        width: 800px;
+        height: 1200px;
+        border: 1px solid white;
+        box-shadow: 2px 2px 5px 5px;
+      }
+      #resume:hover {
+        width: 800px;
+        height: 1200px;
+        border: 1px solid white;
+        box-shadow: 2px 2px 7px 7px;
+        transition: 2s;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .about:hover {
+        border-radius: 80px;
+        opacity: 1;
+        transition: 2s;
+        font-weight: bolder;
+        box-shadow: 2px 2px 10px 10px;
+      }
+      .intern:hover {
+        border-radius: 80px;
+        opacity: 1;
+        transition: 2s;
+        font-weight: bolder;
+        box-shadow: 2px 2px 10px 10px;
+      }
+      .contact {
+        text-align: center;
+        margin-left: 180px;
+        margin-right: 180px;
+        margin-top: 200px;
+        padding: 25px;
+      }
+
+      .skills {
+        text-align: center;
+      }
+      .social {
+        float: right;
+        margin-right: 50px;
+        margin-top: 180px;
+        font-size: x-large;
+        text-decoration: none;
+      }
+    </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="#">Kunal Jawane</a>
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sa.html"
+                  >Special achievment</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Click for more
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#about">About me</a></li>
+                  <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#Internships">Interships</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#project">Projects</a></li>
+                  <li><a class="dropdown-item" href="#resume">Resume</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="photo">
+      <img id="hello" src="photo.png" />
+      <div class="social">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <!-- Add font awesome icons -->
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a><br />
+        <a href="https://twitter.com/JawaneKunal" class="fa fa-twitter"></a
+        ><br />
+        <a
+          href="https://www.instagram.com/invites/contact/?i=1x8ezmxrfhs5q&utm_content=3oqpmt8"
+          class="fa fa-instagram"
+        ></a
+        ><br />
+        <a href="https://github.com/kunaljawane" class="fa fa-github"></a><br />
+        <a
+          href="https://in.linkedin.com/in/kunal-jawane-2819b3217"
+          class="fa fa-linkedin"
+        ></a>
+      </div>
+    </div>
+    <div id="about" class="about">
+      <h2 style="font-weight: bolder; text-align: center">About me;</h2>
+      <hr />
+      <p>
+        I am currently pursuing an Undergrad Degree in Computer Engineering from
+        <br />International Institute Of Information Technology (I2IT), Pune.
+        <br />I have excelled Frontend development and currently exploring
+        Backend Development. <br />I am a Graphic Designer currently working in
+        the designing team of I2IT ACM student chapter <br />also I like to play
+        volleyball<br />
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="skills" class="skills">
+      <h2 style="text-align: center">Skills;</h2>
+      <br />
+      <label>Techinal Skills</label>
+      <select>
+        <option>HTml</option>
+        <option>Css</option>
+        <option>JavaScript</option>
+        <option>Node.js</option>
+        <option>React.js</option>
+        <option>Bootsrap</option>
+        <option>Express</option>
+        <option>C++</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>Graphic Designing</option>
+      </select>
+      <label style="margin-left: 5px">Non-Techinal Skills</label>
+      <select>
+        <option>Leadership</option>
+        <option>Team-work</option>
+        <option>Confidence</option>
+        <option>Hardwork</option>
+        <option>Creativity</option>
+        <option>Time-management</option>
+      </select>
+    </div>
+    <br />
+    <br />
+    <div id="Internships" class="intern">
+      <h2 style="font-weight: bolder; text-align: center">Interships;</h2>
+      <hr />
+      <p>
+        Position:Web Development and Designing Intern<br />
+        Company:Oasis Infobytes<br />
+        Duration:1 Month (Dec 2022)<br />
+        Status:Finish
+      </p>
+      <p>
+        Position:Graphic designer Intern<br />
+        Company:Oasis Infobytes<br />
+        Duration:1 Month (Jan 2023)<br />
+        Status:Finish
+      </p>
+    </div>
+    <div id="project" class="projects">
+      <h2 style="font-weight: bolder; text-align: center">Projects;</h2>
+      <br />
+    </div>
+    <div class="user">
+      <ul style="list-style: none">
+        <li>
+          <a href="https://github.com/kunaljawane/Portfolio"
+            ><img src="portfolio.png" height="150px" width="150px" /><br /><span
+              >PortFolio</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/kunaljawane/Hostel-mangagment-system"
+            ><img src="hostel.png" height="150px" width="150px" /><br /><span
+              >Hostel managment system</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/kunaljawane/Netflix_clone"
+            ><img src="netflix.png" height="150px" width="150px" /><br /><span
+              >Netfix clone</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/kunaljawane/Tic-Tac-Toe"
+            ><img
+              src="tic-tac-toe.png"
+              height="150px"
+              width="150px"
+            /><br /><span>Tic-tac Toe</span></a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/kunaljawane/Bidirectional-visitor-counter-system"
+            ><img src="visitor.png" height="150px" width="150px" /><br /><span
+              >Bidirectional visitor counter system</span
+            ></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/kunaljawane/TextUtils"
+            ><img src="text (1).png" height="150px" width="150px" /><br /><span
+              >TEXTutils</span
+            ></a
+          >
+        </li>
+      </ul>
+    </div>
+    <div id="resume" class="center">
+      <h2 style="font-weight: bolder; text-align: center">Resume;</h2>
+      <img id="resume" src="resume.jpg" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="contact" id="contact">
+      <hr />
+      <p id="para">
+        Contact Info:<br />
+        Mobile No:<a href="">8956133832</a><br />
+        Mail Id:<a href="kunaljawane@gmail.com">kunaljawane@gmail.com</a><br />
+        LinkedIn:<a href="https://in.linkedin.com/in/kunal-jawane-2819b3217"
+          >https://in.linkedin.com/in/kunal-jawane-2819b3217</a
+        ><br />
+        Address:P-14, Phase 1, Hinjewadi Rajiv Gandhi Infotech Park, Hinjawadi,
+        Pune, Maharashtra 411057<br />
+      </p>
+    </div>
+  </body>
+</html>
